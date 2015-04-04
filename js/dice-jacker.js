@@ -143,7 +143,7 @@ window.DiceJacker = function() {
 		rollTarget = 0;
 		playerRollHistory.length = 0;
 		computerRollHistory.length = 0;
-		currentRollDisplay.innerHTML = playerRollDisplay.innerHTML = computerRollHistory.innerHTML = "";
+		currentRollDisplay.innerHTML = playerRollDisplay.innerHTML = computerRollDisplay.innerHTML = "";
 		
 		var iterations = Math.floor(Math.random() * 15);
 		for (var i = 0; i  < iterations; ++i) {
