@@ -31,6 +31,8 @@ body {
 	top: 100px;
 	background-color: aliceblue;
 	border: 4px solid black;
+	text-align: center;
+	padding: 30px;
 }
 
 .button {
