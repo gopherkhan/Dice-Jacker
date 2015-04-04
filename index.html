@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>Dice Jacker // chrisxnelson.com</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<div class="content">
+			<div class="title">Dice-Jacker</div>
+			<div class="description">Blackjack with Dice</div>
+			<div class="game">
+				<div class="pre-game">
+					<div class="buttons">
+						<div class="button start-button">Start</div>
+					</div>
+				</div>
+				<div class="game-on hidden">
+					<div class="buttons">
+						<div class="button hit-button hidden">Hit</div>
+						<div class="button stay-button hidden">Stay</div>
+					</div>
+					<div class="roll-target title"></div>
+					<div class="current-roll"></div>
+					<div class="rolls">
+						<div class="title">Player</div>
+						<div class="player-rolls"></div>
+						<div class="title">Computer</div>
+						<div class="computer-rolls"></div>
+					</div>
+				
+				</div>
+				<div class="win-box hidden">
+					<div class="title"></div>
+					<div class="description"></div>
+					<div class="button again-button">Play Again</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/dice-jacker.js"></script>
+		<script type="text/javascript">
+			window.DiceJacker.init('.game', document);
+		</script>
+	</body>
+</html>

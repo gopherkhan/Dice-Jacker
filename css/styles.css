@@ -1,0 +1,99 @@
+body { 
+	width: 100%;
+	background-color: #66AB56;
+	font-family: Georgia,Times,"Times New Roman",serif;
+	font-smooth:always;
+	-webkit-font-smoothing: antialiased;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.content {
+	width: 748px;
+	text-align: left;
+	display: inline-block;
+}
+
+.hidden {
+	display: none;
+}
+
+.buttons {
+	text-align: center;
+}
+
+.win-box {
+	position: absolute;
+	z-index: 4000;
+	width: 300px;
+	left: 50%;
+	margin-left: -150px;
+	top: 100px;
+	background-color: aliceblue;
+	border: 4px solid black;
+}
+
+.button {
+	text-transform: uppercase;
+	padding: 30px;
+	display: inline-block;
+	border: 2px solid black;
+	font-size: 22px;
+}
+
+.roll-target {
+	border: 4px solid black;
+	padding: 14px;
+}
+
+.game {
+	margin-top: 40px;
+}
+
+.title {
+	font-size: 28px;
+}
+.description {
+	font-size: 18px'
+}
+
+.dice {
+
+}
+
+.dice-face {
+	width: 300px;
+	height: 300px;
+	border: 2px solid black;
+	border-radius: 12px;
+	padding: 30px;
+	vertical-align: middle;
+	text-align: center;
+	background-color: ghostwhite;
+	display: inline-block;
+	margin: 5px;
+}
+
+.dice-row {
+	text-align: center;
+	height: 122px;
+	width: 100%;
+	display: block;
+}
+
+.dot {
+	width: 50;
+	height: 50;
+	background-color: black;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
