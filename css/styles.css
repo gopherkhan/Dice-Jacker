@@ -1,11 +1,13 @@
 body { 
 	width: 100%;
 	background-color: #66AB56;
-	font-family: Georgia,Times,"Times New Roman",serif;
+	/*font-family: Georgia,Times,"Times New Roman",serif; */
+	font-family: "Lucida Bright", Georgia, serif; 
 	font-smooth:always;
 	-webkit-font-smoothing: antialiased;
 	padding-top: 30px;
 	text-align: center;
+	user-select: none;
 }
 
 .content {
@@ -29,7 +31,7 @@ body {
 	left: 50%;
 	margin-left: -150px;
 	top: 100px;
-	background-color: aliceblue;
+	background-color: ivory;
 	border: 4px solid black;
 	text-align: center;
 	padding: 30px;
@@ -37,15 +39,25 @@ body {
 
 .button {
 	text-transform: uppercase;
-	padding: 30px;
+	padding: 15px 30px;
 	display: inline-block;
 	border: 2px solid black;
 	font-size: 22px;
+	border-radius: 3px;
+	background-color: #EBD999;
+	margin: 5px 2px;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: aliceblue;
 }
 
 .roll-target {
-	border: 4px solid black;
+	border: 3px solid black;
 	padding: 14px;
+	border-radius: 12px;
+	background-color: #EBD999;
 }
 
 .game {
